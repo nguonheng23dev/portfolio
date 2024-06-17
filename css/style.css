@@ -285,6 +285,7 @@ nav{
 }
 .col{
     display: flex;
+    margin-top: 20px;
     width: 50%;
 }
 
@@ -340,15 +341,21 @@ h3{
 
 /* ----- ABOUT / SKILLS BOX ----- */
 .skills-box{
-    margin: 10px;
+    margin: 20px;
+    display: block;
+    margin-top: 60px;
 }
 .skills-header{
-    margin-bottom: 30px;
+    justify-content: space-between;
+    display: flex;
 }
 .skills-list{
     display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
 }
 .skills-list span{
     font-size: 14px;
