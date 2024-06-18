@@ -369,7 +369,7 @@ h3{
 .project-container{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -415,6 +415,92 @@ h3{
     color: var(--color-white);
     z-index: 2;
 }
+
+.section-projects {
+    margin-bottom: 30px;
+}
+  
+.top-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.top-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+  
+.project-menu-lists {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.project-item {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+  
+.project-item a {
+    text-decoration: none;
+    color: #00B5E7;
+}
+  
+.project-item:hover {
+    transform: translateY(-5px);
+    color: var(--first-color);
+    box-shadow: 1px 8px 10px 2px rgba(0, 0, 0, 0.2);
+}
+  
+.project-item:hover a {
+    text-decoration: underline;
+}
+
+.section-experiences {
+    margin-bottom: 30px;
+}
+
+.experience-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+.experience-table th,
+.experience-table td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+  
+.experience-table th {
+    font-weight: bold;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+  
+.experience-table td {
+    text-align: left;
+}
+  
+.experience-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.experience-table tr:hover {
+    background-color: #e6f7ff;
+}
+
 
 /* ----- CONTACT BOX ----- */
 .contact-info{
